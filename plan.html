@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan de Pagos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Simulador de Plan</h1>
+        <nav>
+            <a href="detalle.html">Volver al Detalle</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Opciones de Refinanciamiento (Calculado)</h2>
+            <form action="index.html" method="get">
+                <fieldset>
+                    <legend>Seleccione una opción</legend>
+                    <label>
+                        <input type="radio" name="plan" value="1" checked> 
+                        Pago total atraso: $450.50
+                    </label>
+                    <label>
+                        <input type="radio" name="plan" value="2"> 
+                        Diferir a 3 meses (+ intereses)
+                    </label>
+                </fieldset>
+                <div class="acciones">
+                    <button type="submit" class="btn-principal">Confirmar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

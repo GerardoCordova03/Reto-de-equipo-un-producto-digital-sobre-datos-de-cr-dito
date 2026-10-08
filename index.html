@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandeja de Cobranza Temprana</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Bandeja de Cobranza</h1>
+        <nav>
+            <a href="index.html" class="activo" aria-current="page">Pendientes</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Cuentas Prioritarias Hoy</h2>
+            <div class="tabla-responsiva">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">ID Crédito</th>
+                            <th scope="col">Monto</th>
+                            <th scope="col">Mensualidad</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>12345</td>
+                            <td>$15,000</td>
+                            <td>$450.50</td>
+                            <td><span class="etiqueta alerta">Atrasado</span></td>
+                            <td><a href="detalle.html" class="btn">Revisar</a></td>
+                        </tr>
+                        <tr>
+                            <td>12346</td>
+                            <td>$8,000</td>
+                            <td>$250.00</td>
+                            <td><span class="etiqueta advertencia">Gracia</span></td>
+                            <td><a href="detalle.html" class="btn">Revisar</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

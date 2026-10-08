@@ -1,0 +1,6 @@
+1. Abre index.html
+2. El recorrido principal consta de tres pasos:
+   - Bandeja (index.html): Clic en 'Revisar' en el primer registro.
+   - Detalle (detalle.html): Revisión de datos y clic en 'Ofrecer Plan'.
+   - Plan (plan.html): Selección de opción y clic en 'Confirmar' (regresa a la bandeja).
+3. Elementos simulados: El porcentaje de "Probabilidad de recuperación: 78%" en la pantalla de detalle es simulado.

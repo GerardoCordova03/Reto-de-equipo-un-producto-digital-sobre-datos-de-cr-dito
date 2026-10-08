@@ -1,0 +1,4 @@
+loan_id,loan_amount,installment,loan_status
+12345,15000,450.50,Late (16-30 days)
+12346,8000,250.00,In Grace Period
+12347,20000,600.00,Late (16-30 days)
